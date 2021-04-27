@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #1f2833;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  /* Adding styling to header */
+  header {
+    padding: 20px 35px;
+    background-color: #1f2833;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /* Styling to the h1 tag */
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #66fcf1;
+    margin: 0;
+    
+  }
+
+  /* anchor tags getting rid of text underline */
+  header a {
+    text-decoration: none;
+    color: #66fcf1;
+    
+  }
+
+  header nav {
+  
+    margin: 8px 0;
+  }
+
+  /* flexing the nav to place items side by side */
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  /* Applies spacing to rach list item in the header */
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    
+  }
+
+  footer {
+    background: #1f2833;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer h2{
+    color: #66fcf1;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+      line-height: 1.5;
+      text-align: right;
+  }
+
+
+  footer a {
+      color: #66fcf1;
+  }
+
+  section {
+    padding: 200px;
+  }
+
+.hero {
+    background-image: url('../assets/images/CMYK_1.png');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
