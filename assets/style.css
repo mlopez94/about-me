@@ -110,15 +110,12 @@
       color: var(--secondary-color);
   }
 
-  /* section {
-    padding: 200px;
-  } */
 
 
   /* added image to hero page */
 .hero-image {
     background-image: url('../assets/images/CMYK_1.png');
-    background-size: cover;
+    /* background-size: cover; looks better without this */
     background-position: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -126,10 +123,9 @@
      
 }
 
-.hero-img {
-    background-image: url('../assets/images/kung-fu.jpg');
-}
 
+
+/* Adding padding to the left side of Section titles */
 section {
     padding-left: 50px;
 }
@@ -142,14 +138,13 @@ section {
 .flex-row {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0px;
+  
+  
 }
 
 .section-title {
   font-size: 50px;
   color: #66fcf1;
- 
   padding-right: 25px;
   display: inline-block;
   border-right: 3mm ridge var(--secondary-color);
@@ -160,6 +155,7 @@ section {
 
 
 /* About Me Styles */
+/* Added padding top and bottom instead using of using sections */
 .intros {
     background-color: var(--primary-color);
     padding-bottom: 150px;
@@ -178,6 +174,7 @@ section {
 
 .intros p {
     color: var(--secondary-color);
+    padding-left: 5.5%;
 }
 
 .intro:last-child {
@@ -200,12 +197,15 @@ section {
 
 /* Contact styles */
 
+
+/* Added padding to contact section */
 .contact {
     background-color: var(--primary-color);
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
+/* Added some padding around the hover */
 .contact a {
     color: var(--secondary-color);
     font-size: 20px;
