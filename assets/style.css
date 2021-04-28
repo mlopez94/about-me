@@ -131,7 +131,7 @@
 }
 
 section {
-    padding: 200px;
+    padding-left: 50px;
 }
 
 .hero-text {
@@ -162,6 +162,8 @@ section {
 /* About Me Styles */
 .intros {
     background-color: var(--primary-color);
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 .intro {
@@ -182,24 +184,34 @@ section {
     border-bottom: none;
 }
 
-
+.bio ()
 
 .intro-img img {
     flex: 1 12px;
     margin-right: 20px;
 }
 
+
+.show-work {
+    background-color: var(--primary-color);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 /* Contact styles */
 
 .contact {
     background-color: var(--primary-color);
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .contact a {
     color: var(--secondary-color);
     font-size: 20px;
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 15px 20px;
+    border-radius: 10px;
 }
 
 .contact a:hover {
