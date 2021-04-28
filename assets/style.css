@@ -1,3 +1,4 @@
+/* Adding vars for colors. */
 :root {
     --primary-color:  #1f2833;
     --secondary-color: #66fcf1;
@@ -12,7 +13,7 @@
   }
 
   body {
-    /* more on this crazy alphanumerical value in a minute! */
+    
     color: var(--primary-color);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
@@ -24,9 +25,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+  
  
 
   }
@@ -111,34 +110,50 @@
       color: var(--secondary-color);
   }
 
-  section {
+  /* section {
     padding: 200px;
-  }
+  } */
 
-.hero {
+
+  /* added image to hero page */
+.hero-image {
     background-image: url('../assets/images/CMYK_1.png');
-    display: flex;
     background-size: cover;
     background-position: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 75px;
      
+}
+
+.hero-img {
+    background-image: url('../assets/images/kung-fu.jpg');
+}
+
+section {
+    padding: 200px;
+}
+
+.hero-text {
+    font-size: 15px;
+    text-align: right;
 }
 
 .flex-row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0px;
 }
 
 .section-title {
-  font-size: 35px;
+  font-size: 50px;
   color: #66fcf1;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
+ 
+  padding-right: 25px;
   display: inline-block;
   border-right: 3mm ridge var(--secondary-color);
-  justify-content: right;
+  justify-content: center;
   
   
 }
@@ -159,6 +174,10 @@
     justify-content: space-between;
 }
 
+.intros p {
+    color: var(--secondary-color);
+}
+
 .intro:last-child {
     border-bottom: none;
 }
@@ -174,4 +193,27 @@
 
 .contact {
     background-color: var(--primary-color);
+}
+
+.contact a {
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.contact a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    text-shadow: none;
+}
+
+.contact p {
+    color: var(--secondary-color);
+}
+
+
+.second h2 {
+    color: var(--primary-color)
 }
