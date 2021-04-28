@@ -204,6 +204,7 @@ section {
     padding-bottom: 150px;
 }
 
+/* container to hold the boxes */
 .flex-container{
     display: flex;
     flex-flow: wrap;
@@ -223,7 +224,11 @@ section {
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 20px; 
+}
+
+.flex-item .run-buddy {
+    background-image: url(./images/kung-fu.jpg);
 }
 
 /* Contact styles */
