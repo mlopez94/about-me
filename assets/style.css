@@ -135,6 +135,7 @@ section {
     text-align: right;
 }
 
+/* Updated flex class */
 .flex-row {
   display: flex;
   justify-content: space-between;
@@ -172,10 +173,13 @@ section {
     justify-content: space-between;
 }
 
+/* Added padding to separate text from border */
 .intros p {
     color: var(--secondary-color);
     padding-left: 5.5%;
 }
+
+.
 
 .intro:last-child {
     border-bottom: none;
