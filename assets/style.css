@@ -179,7 +179,14 @@ section {
     padding-left: 5.5%;
 }
 
-.
+.img > img {
+    height: 250px;
+    
+}
+
+.img {
+    padding: 10px;
+}
 
 .intro:last-child {
     border-bottom: none;
@@ -187,16 +194,12 @@ section {
 
 .bio ()
 
-.intro-img img {
-    flex: 1 12px;
-    margin-right: 20px;
-}
 
 
 .show-work {
     background-color: var(--primary-color);
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* Contact styles */
