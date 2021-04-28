@@ -1,3 +1,10 @@
+:root {
+    --primary-color:  #1f2833;
+    --secondary-color: #66fcf1;
+    --third-color: rgb(121, 139, 142);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +13,7 @@
 
   body {
     /* more on this crazy alphanumerical value in a minute! */
-    color: #1f2833;
+    color: var(--primary-color);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
@@ -17,27 +24,33 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+ 
+
   }
 
   /* Styling to the h1 tag */
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #66fcf1;
+    color: var(--secondary-color);
     margin: 0;
+    text-shadow: 0 0 10px rgba(137, 23, 138, 0.797);
     
   }
 
   /* anchor tags getting rid of text underline */
   header a {
     text-decoration: none;
-    color: #66fcf1;
+    color: var(--secondary-color);
     
   }
 
   header nav {
   
-    margin: 8px 0;
+    margin: 9px 0;
   }
 
   /* flexing the nav to place items side by side */
@@ -54,38 +67,48 @@
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    padding: 5px 5px;
     
   }
 
-  .first p {
+  /* hover style to nav bar to change color */
+  header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    text-shadow: none;
+  }
+
+  /* .first p {
     color: #66fcf1;
     text-align: right;
   
-  }
+  } */
 
   footer {
-    background: #1f2833;
+    background: var(--primary-color);
     width: 100%;
-    padding: 40px 35px;
+    padding: 35px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
   footer h2{
-    color: #66fcf1;
-    font-size: 30px;
+    color: var(--secondary-color);
+    font-size: 25px;
     margin: 0;
   }
 
   footer div {
-      line-height: 1.5;
+      line-height: 2;
       text-align: right;
   }
 
 
   footer a {
-      color: #66fcf1;
+      font-size: 20px;
+      color: var(--secondary-color);
   }
 
   section {
@@ -99,7 +122,7 @@
     background-position: center;
     justify-content: center;
     flex-wrap: wrap;
-  
+     
 }
 
 .flex-row {
@@ -109,21 +132,46 @@
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 35px;
   color: #66fcf1;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   display: inline-block;
-  border-right: 3px solid;
+  border-right: 3mm ridge var(--secondary-color);
+  justify-content: right;
+  
   
 }
 
-.first {
-  background-color: #1f2833;
-  
 
+/* About Me Styles */
+.intros {
+    background-color: var(--primary-color);
 }
 
-.second {
-  background-color: white;
+.intro {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro:last-child {
+    border-bottom: none;
+}
+
+
+
+.intro-img img {
+    flex: 1 12px;
+    margin-right: 20px;
+}
+
+/* Contact styles */
+
+.contact {
+    background-color: var(--primary-color);
 }
