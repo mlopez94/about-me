@@ -227,6 +227,7 @@ section {
     margin-right: 20px; 
 }
 
+/* Test pic for page */
 .flex-item.run-buddy {
     background-image: url(./images/kung-fu.jpg);
     background-size: cover;
@@ -236,6 +237,7 @@ section {
 
 }
 
+/* Added hover over images */
 .flex-item.flex-item.run-buddy:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
@@ -262,6 +264,7 @@ section {
     border-radius: 10px;
 }
 
+/* Added hover to contact links */
 .contact a:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
