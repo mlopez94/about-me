@@ -229,10 +229,12 @@ section {
 
 /* Test pic for page */
 .flex-item.run-buddy {
-    background-image: url(./images/kung-fu.jpg);
+    background-image: url(./images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    
     
 
 }
