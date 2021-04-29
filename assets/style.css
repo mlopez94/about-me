@@ -227,8 +227,20 @@ section {
     margin-right: 20px; 
 }
 
-.flex-item .run-buddy {
+.flex-item.run-buddy {
     background-image: url(./images/kung-fu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.flex-item.flex-item.run-buddy:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    text-shadow: none;
 }
 
 /* Contact styles */
