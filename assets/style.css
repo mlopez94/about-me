@@ -85,9 +85,9 @@
   } */
 
   footer {
-    background: var(--primary-color);
+    background: black);
     width: 100%;
-    padding: 35px 35px;
+    padding: 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -274,7 +274,12 @@ section {
   padding: 5px 10px 10px 5px;
   position: absolute;
   margin-bottom: 20px;
+  font-size: 25px;
+  color: var(--primary-color);
+  
+  
 }
+
 
 
 
