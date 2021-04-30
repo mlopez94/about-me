@@ -216,7 +216,7 @@ section {
 .flex-item {
     background: var(--secondary-color);
     padding: 5px;
-    width: 200px;
+    width: 300px;
     height: 100%;
     margin-top: 10px;
     line-height: 150px;
@@ -224,7 +224,8 @@ section {
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-    margin-right: 20px; 
+    margin-right: 20px;
+    
 }
 
 /* Test pic for page */
@@ -244,6 +245,15 @@ section {
 
 #img-click-seo {
     background-image: url(./images/horiseon.PNG);
+    
+}
+
+#img-click-ph1 {
+    background-image: url(./images/sunset.png);
+}
+
+#img-click-ph2 {
+    background-image: url(./images/CMYK__RGB.png);
 }
 
 .img-click-1 {
@@ -254,6 +264,8 @@ section {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
+    
+    
 }
 
 
