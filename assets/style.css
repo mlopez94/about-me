@@ -269,6 +269,14 @@ section {
 }
 
 
+.project-info {
+  background-color: var(--secondary-color);
+  padding: 5px 10px 10px 5px;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+
 
 /* Added hover over images */
 .flex-item.flex-item.run-buddy:hover {
@@ -292,7 +300,7 @@ section {
 /* Added some padding around the hover */
 .contact a {
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 35px;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 10px;
@@ -308,6 +316,8 @@ section {
 
 .contact p {
     color: var(--secondary-color);
+    font-size: 35px;
+    
 }
 
 
